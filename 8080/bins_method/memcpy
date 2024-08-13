@@ -1,0 +1,15 @@
+lxi bc 512
+lxi de 1024
+lxi hl 2048
+mov a, b
+ora c
+rz
+loop: ldax d
+mov m, a
+inx de
+inx hl
+dcx bc
+mov a, b
+ora c
+jnz loop
+ret

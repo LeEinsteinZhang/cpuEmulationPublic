@@ -1,0 +1,4 @@
+This file will record the project update
+
+jan-06-2024: Establish the project
+jan-07-2024: add io.py
